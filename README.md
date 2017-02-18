@@ -1,4 +1,4 @@
-# paircolumbus
+# PairColumbus Personal Repo
 Challenges from PairColumbus
 
 Each folder present focus section (SQL, DataAnalytics, Testing, Algorithm, Ruby, Python)
