@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 
@@ -9,7 +10,7 @@ def drop_table(name):
 		conn.execute('DROP TABLE IF EXISTS {}'.format(name))
 
 def create_table_from_csv(name, conversions):
-	df = pd.read_csv('data/{}.csv'.format(name))
+	df = pd.read_csv(os.path.join(data_dir,'{}.csv'.format(name)))
 	for k, convert in conversions.items():
 		df[k] = convert(df[k])
 

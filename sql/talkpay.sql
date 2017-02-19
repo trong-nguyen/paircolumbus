@@ -1,4 +1,8 @@
 /*
+THE FOLLOWING QUERIES ARE FOR [POSTGRESQL] FLAVOR
+*/
+
+/*
 Name the top 5 twitter users with the most tweets about #talkpay?
     user_name    | tweets 
 -----------------+--------
