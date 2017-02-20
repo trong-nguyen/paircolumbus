@@ -32,6 +32,12 @@ Tables `filmdeathcounts`, `jeopardy`, `talkpay`, `marvel-wikia-data`, `fy16_scho
 | Tool | What |
 | ---- | ----------------- |
 | SQL | Different flavors (MySQL, PostgreSQL, SQLite, SQL Server) have very different supports and syntaxes for eg. regex, comparison, data types, etc. which make ORM tools like [SQLAlchemy](http://www.sqlalchemy.org) the more compelling. |
+| SQL | Relative popularity according to [Google Trends](https://www.google.com/trends/explore?geo=US&q=%2Fm%2F05ynw,%2Fm%2F0120vr,%2Fm%2F04y3k,%2Fm%2F01kgq9) |
+| SQL Server | 70 |
+| MySQL | 50 |
+| PostgreSQL | 20 |
+| SQLite | 8 |
+| PostgreSQL | Open Source, ANSI-standard, stability, scalibility. |
 | PostgreSQL | Newline / Linebreak: `chr(10)` |
 | PostgreSQL | Column names should be taken seriously. "Spaces, non-word characters like $ % etc." all make selections very cubersome. I wrote a `rename_to_conform_postgre` routine to standardize column names (remove all non-word characters and lower case) when using PostgreSQL |
 | PostgreSQL | Regular expression: `regexp_matches()` for `SELECT` or `~` for `WHERE` |
@@ -40,6 +46,8 @@ Tables `filmdeathcounts`, `jeopardy`, `talkpay`, `marvel-wikia-data`, `fy16_scho
 | PostgreSQL | Single `''` and double `""` quotes mean differently: ie. `'string_values'` whislt `"table/column_names"`, [more on this](https://wiki.postgresql.org/wiki/Things_to_find_out_about_when_moving_from_MySQL_to_PostgreSQL) |
 
 ### Extra Credits
+
+`#trump` Trump is not a person's name. It is the name of an Empire with hundreds of states (companies).
 
 `#paytalk` It pays really well in the Tech industry, quite encouraging.
 
